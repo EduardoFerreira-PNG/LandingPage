@@ -1,0 +1,157 @@
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+/* Tags Semanticas */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(34,34,34);
+    color: #fff;
+    height: 100px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+form{
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 40px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+p{
+    padding-top: 1rem;
+    font-size: 20px;
+    max-width: 490px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 50px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+article{
+    height: 0px;
+}
+
+
+ /* area dos conteudos */
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(132, 14, 201);
+    
+}
+.tittle__cabecalho{
+    font-size: 1.5rem;
+    flex-direction: column;
+    line-height: 35px;
+    margin-bottom: 1rem;
+}
+.nav__cabecalho{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+.nav__link:hover{
+    color: rgb(132, 14, 201);
+    border-bottom: 1px solid rgb(132, 14, 201);
+    transition: 0.2s;
+    transform: scale(1.1)
+    
+}
+.nav__link{
+    display: inline-block;
+    margin-right: 25px;
+    padding: 2px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #fff;
+
+}
+.button:hover{
+    background-color: #fff;
+    color: rgb(132, 14, 201);
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+.button{
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    width: 170px;
+    font-size: 1rem;
+    background-color: rgb(132, 14, 201);
+    text-align: center;
+    border: none;
+    border-radius: 40px 10px;
+}
+
+.destaque{
+    margin-top: 10px;
+}
+
+
+
+#cor__titulo__destaque{
+    color: rgb(132, 14, 201);
+}
+
+
+
+.image__destaque{
+    margin-left: 120px;
+    margin-bottom: 500px;
+    box-sizing: border-box;
+    display: flex;
+    width: 580px;
+    
+}
